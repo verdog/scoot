@@ -57,7 +57,6 @@ class Vector2:
 
         return correction
 
-
 def get_car_facing_vector(car):
     pitch = float(car.physics.rotation.pitch)
     yaw = float(car.physics.rotation.yaw)
